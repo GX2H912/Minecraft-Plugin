@@ -1,0 +1,8 @@
+name: Test
+main: me.FireCrystal12.test.java
+author: Mandar
+version: 1
+description:
+commands:
+  test:
+    description: A Test Command, read README before use
