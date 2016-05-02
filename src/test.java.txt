@@ -1,0 +1,24 @@
+import org.bukkit.CommandSender
+import org.bukkit.Command
+import org.bukkit.EntityPlayer
+import org.bukkit.ChatColor
+
+public class test extends JavaPlugin{
+    
+    public void onEnable{
+       
+       getLogger.info("onEnable has been enabled!");
+
+}
+    public void onDisable{
+
+
+}
+    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
+       
+             if (cmd.getName("test").equalsIgnoreCase && sender instance of Player);
+
+             Player player = (player) sender;
+
+             player.sendMessage(ChatColor.GREEN + "Test command Has been enabled," + player.getName() + ChatColor.BLUE + "!")
+}
