@@ -1,8 +1,8 @@
-import org.bukkit.ChatColor
-import org.bukkit.CommandSender
-import org.bukkit.JavaPlugin
-import org.bukkit.Command
-import org.bukkit.Player
+import org.bukkit.ChatColor;
+import org.bukkit.CommandSender;
+import org.bukkit.JavaPlugin;
+import org.bukkit.Command;
+import org.bukkit.Player;
 
 public class Minecraft-Plugin extends JavaPlugin{
     
