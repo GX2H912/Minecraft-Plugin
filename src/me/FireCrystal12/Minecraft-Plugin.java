@@ -16,13 +16,15 @@ public class Minecraft-Plugin extends JavaPlugin{
     
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
       
-      if (cmd.getName().equalsIgnoreCase("mcplugin") && sender instanceof player){
+      if (cmd.getName().equalsIgnoreCase("mcplugin") && sender instanceof player);
         
         Player player = (player) sender;
         
         player.sendMessage(ChatColor.DARK_GREEN + "Get rekt, " + player.getName());
         
         
-      }
+        
+        return true;
     }
+    return false;
 }
